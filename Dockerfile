@@ -15,9 +15,11 @@ EXPOSE 8501
 
 COPY . /app
 
-#CMD streamlit run /app/server.py 
-CMD python /app/model.py 
+CMD streamlit run /app/server.py 
+# CMD python /app/model.py 
 #&& python streamlit run /app/server.py
+
+
 
 
  
